@@ -1,0 +1,61 @@
+html, body
+{
+  height: 1920px;
+}
+
+.flex-container
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.flex-container div {
+  flex: 0 0 auto;
+  
+}
+.flex-container .first{
+  background: #1F2937;
+  flex-basis: 30%;
+  
+}
+
+.flex-container .second{
+  flex-basis: 25%;
+}
+
+.flex-container .third{
+  background: #E5E7EB;
+  flex-basis: 22%;
+}
+
+.flex-container .fourth{
+  flex-basis: 18%;
+}
+
+.flex-container .fifth{
+  background: #1F2937;
+  flex-basis: 5%;
+}
+
+.headerClass
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+#headerLogo{
+color: #f9faf8;
+size: 24px;
+}
+.headerClass ul {
+  list-style-type: none;
+  margin-left: 500px;
+}
+.headerClass li{
+  float: left;
+  padding-left: 10 px;
+  color: #E5E7EB;
+  size: 18px;
+  padding-left: 10px;
+  
+}
