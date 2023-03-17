@@ -10,6 +10,7 @@ html, body
   display: flex;
   flex-direction: column;
   height: 100%;
+  justify-content: space-between
 }
 .flex-container div {
   flex: 0 0 auto;
@@ -116,10 +117,11 @@ font-size: 24px;
 }
 .second ul{
   list-style-type: none;
+  align-self: center;
 }
 .second li{
   float: left;
-  padding-inline: 10px;
+  padding-inline: 20px;
   width: 150px;
 }
 #imgBox{
@@ -135,27 +137,80 @@ font-size: 24px;
 .flex-container .third{
   background: #E5E7EB;
   flex-basis: 22%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-inline: 10%;
+  color: #1F2937;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  
+}
+.quoteSource{
+  font-size: 20px;
+  font-weight: bolder;
+  align-self: flex-end;
 }
 
 /*Fourth felx container*/
 
 .flex-container .fourth{
-  flex-basis: 20%;
+  flex-basis: 15%;
+  padding-inline: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content:center;
 }
+
+.fourthBlue{
+  border: #3882f6 2px solid;
+  border-radius: 15px;
+  background-color: #3882f6;
+  font-size: 28px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fourthBlue ul{
+  list-style-type: none;
+  align-self: center;
+}
+.fourthBlue li{
+ 
+  color: #E5E7EB;
+}
+.fourthBlue button, button:active, button:hover{
+  font-size: 18px;
+  color: #E5E7EB;
+  border: 5px solid #E5E7EB;
+  background-color: #3882f6;
+  height: 60px;
+  width: 120px;
+  text-align: center;
+  align-self: center;
+  border-radius: 15px;
+
+}
+
+
+
 
 /*Fifth felx container*/
 
 .flex-container .fifth{
   background: #1F2937;
   flex-basis: 3.5%;
+  flex-grow: 1;
 }
-
-
-.fotter {
+.footer {
   color: #E5E7EB;
   text-align: center;
 }
-.fotter  a:link, a:visited{
+.footer  a:link, a:visited{
   font-size: 18px;
   text-decoration: none;
 }
